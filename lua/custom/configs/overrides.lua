@@ -41,7 +41,6 @@ M.mason = {
 
     -- go stuff
     "gopls",
-    "gofumpt",
     "goimports",
     'impl',
     'gomodifytags',

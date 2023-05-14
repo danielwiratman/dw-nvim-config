@@ -18,7 +18,6 @@ local sources = {
   b.formatting.clang_format,
 
   -- go
-  b.formatting.gofumpt,
   b.formatting.goimports,
 
   -- python
