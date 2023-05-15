@@ -6,7 +6,7 @@ local autocmd = vim.api.nvim_create_autocmd
 --   command = "tabdo wincmd =",
 -- })
 -- set relative number everytime neovim starts
-autocmd("TermOpen", {
+autocmd("BufRead", {
 	pattern = "*",
 	command = "setlocal number relativenumber",
 })
