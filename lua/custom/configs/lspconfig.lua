@@ -15,3 +15,6 @@ end
 
 -- 
 -- lspconfig.pyright.setup { blabla}
+lspconfig['emmet_ls'].setup {
+  filetypes = { 'html', 'javascript', 'javascriptreact', 'typescriptreact', 'typescript', 'typescript.tsx', 'tsx' },
+}
