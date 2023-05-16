@@ -54,7 +54,7 @@ local plugins = {
 		"Exafunction/codeium.vim",
 		event = "VeryLazy",
 		config = function()
-			vim.keymap.set("i", "<C-g>", function()
+			vim.keymap.set("i", "<C-j>", function()
 				return vim.fn["codeium#Accept"]()
 			end, { expr = true })
 		end,
