@@ -40,7 +40,8 @@ M.mason = {
     "clang-format",
 
     -- go stuff
-    "gopls",
+    "golangci-lint-langserver",
+    "golangci-lint",
     "goimports",
     'impl',
     'gomodifytags',
