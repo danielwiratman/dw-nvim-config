@@ -81,6 +81,7 @@ local plugins = {
 	},
 	{
 		"wthollingsworth/pomodoro.nvim",
+    event = "VeryLazy",
 		dependencies = "MunifTanjim/nui.nvim",
 		config = function()
 			require("pomodoro").setup({
