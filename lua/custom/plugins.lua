@@ -83,7 +83,7 @@ local plugins = {
 			"nvim-telescope/telescope.nvim",
 		},
 	},
-  
+
 	{
 		"wthollingsworth/pomodoro.nvim",
 		event = "VeryLazy",
@@ -97,6 +97,10 @@ local plugins = {
 			})
 		end,
 	},
+  {
+    'fedepujol/move.nvim',
+    event = "VeryLazy"
+  }
 }
 
 return plugins
