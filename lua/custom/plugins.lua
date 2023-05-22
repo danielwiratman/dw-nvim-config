@@ -100,6 +100,18 @@ local plugins = {
   {
     'fedepujol/move.nvim',
     event = "VeryLazy"
+  },
+  {
+    "nvim-pack/nvim-spectre",
+    event = "VeryLazy",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      vim.keymap.set("n", "<leader>rs", "<cmd>lua require('spectre').open()<CR>")
+      vim.keymap.set("n", "<leader>rw", "<cmd>lua require('spectre').open_visual({select_word=true})<CR>")
+      vim.keymap.set("v", "<leader>rw", "<esc><cmd>lua require('spectre').open_visual()<CR>")
+    end,
   }
 }
 
