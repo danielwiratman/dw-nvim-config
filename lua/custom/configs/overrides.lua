@@ -9,7 +9,6 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
-    "c",
     "markdown",
     "markdown_inline",
     "go",
@@ -18,9 +17,6 @@ M.treesitter = {
   },
   indent = {
     enable = true,
-    -- disable = {
-    --   "python"
-    -- },
   },
 }
 
@@ -30,19 +26,14 @@ M.mason = {
     "lua-language-server",
     "stylua",
 
-    -- web dev stuff
-    "css-lsp",
+    -- typescript-stuff
     "typescript-language-server",
     "prettier",
     "emmet-ls",
 
-    -- c/cpp stuff
-    "clangd",
-    "clang-format",
-
     -- go stuff
     "gopls",
-    "goimports",
+    "goimports-reviser",
     'impl',
     'gomodifytags',
     'gotests',

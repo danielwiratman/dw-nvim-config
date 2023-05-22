@@ -46,10 +46,12 @@ local plugins = {
 			require("better_escape").setup()
 		end,
 	},
+
 	{
 		"Pocco81/auto-save.nvim",
 		event = "VeryLazy",
 	},
+
 	{
 		"Exafunction/codeium.vim",
 		event = "VeryLazy",
@@ -59,6 +61,7 @@ local plugins = {
 			end, { expr = true })
 		end,
 	},
+
 	{
 		"olexsmir/gopher.nvim",
 		ft = "go",
@@ -67,6 +70,7 @@ local plugins = {
 			"nvim-treesitter/nvim-treesitter",
 		},
 	},
+
 	{
 		"jackMort/ChatGPT.nvim",
 		event = "VeryLazy",
@@ -79,9 +83,10 @@ local plugins = {
 			"nvim-telescope/telescope.nvim",
 		},
 	},
+  
 	{
 		"wthollingsworth/pomodoro.nvim",
-    event = "VeryLazy",
+		event = "VeryLazy",
 		dependencies = "MunifTanjim/nui.nvim",
 		config = function()
 			require("pomodoro").setup({
@@ -92,19 +97,6 @@ local plugins = {
 			})
 		end,
 	},
-	-- To make a plugin not be loaded
-	-- {
-	--   "NvChad/nvim-colorizer.lua",
-	--   enabled = false
-	-- },
-
-	-- All NvChad plugins are lazy-loaded by default
-	-- For a plugin to be loaded, you will need to set either `ft`, `cmd`, `keys`, `event`, or set `lazy = false`
-	-- If you want a plugin to load on startup, add `lazy = false` to a plugin spec, for example
-	-- {
-	--   "mg979/vim-visual-multi",
-	--   lazy = false,
-	-- }
 }
 
 return plugins
