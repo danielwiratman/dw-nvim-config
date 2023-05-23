@@ -33,7 +33,7 @@ M.mason = {
 
     -- go stuff
     "gopls",
-    "goimports-reviser",
+    "goimports",
     'impl',
     'gomodifytags',
     'gotests',

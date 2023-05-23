@@ -15,7 +15,7 @@ local sources = {
   b.formatting.stylua,
 
   -- go
-  b.formatting.goimports_reviser,
+  b.formatting.goimports,
 
   -- python
   b.formatting.black
