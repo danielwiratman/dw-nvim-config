@@ -18,7 +18,10 @@ local sources = {
   b.formatting.goimports,
 
   -- python
-  b.formatting.black
+  b.formatting.black,
+
+  -- terraform
+  b.formatting.terraform_fmt
 }
 
 null_ls.setup {
