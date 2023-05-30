@@ -41,7 +41,10 @@ M.mason = {
 
     -- python stuff
     "pyright",
-    "black"
+    "black",
+
+    -- terraform stuff
+    "terraform-ls"
   },
 }
 
