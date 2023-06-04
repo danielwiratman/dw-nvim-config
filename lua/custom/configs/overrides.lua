@@ -44,7 +44,10 @@ M.mason = {
     "black",
 
     -- terraform stuff
-    "terraform-ls"
+    "terraform-ls",
+
+    -- tailwind stuff
+    "tailwindcss-language-server"
   },
 }
 
