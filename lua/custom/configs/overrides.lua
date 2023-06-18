@@ -14,6 +14,7 @@ M.treesitter = {
     "go",
     "python",
     "terraform",
+    "c"
   },
   indent = {
     enable = true,
@@ -47,7 +48,12 @@ M.mason = {
     "terraform-ls",
 
     -- tailwind stuff
-    "tailwindcss-language-server"
+    "tailwindcss-language-server",
+
+    -- c stuff
+    "clangd",
+    "clang-format"
+
   },
 }
 

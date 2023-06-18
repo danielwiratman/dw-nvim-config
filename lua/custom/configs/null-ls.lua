@@ -21,7 +21,10 @@ local sources = {
   b.formatting.black,
 
   -- terraform
-  b.formatting.terraform_fmt
+  b.formatting.terraform_fmt,
+  
+  -- c
+  b.formatting.clang_format,
 }
 
 null_ls.setup {
